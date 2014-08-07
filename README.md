@@ -16,5 +16,12 @@ Invalid user etho from 61.182.170.38
 ```
 と JSON 形式で抽出します。
 
+また、
+```bash
+Accepted publickey for hoge from 8.8.8.8
+```
+のようなログからユーザ名と ip アドレスを抽出し、
+メールを発報します。(IP アドレスは例です)
+
 ## 使い方
 /etc/td-agent/td-agent.conf に記述します
